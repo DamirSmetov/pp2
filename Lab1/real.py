@@ -1,1 +1,1 @@
-print ("TTT")
+print ("TT")
