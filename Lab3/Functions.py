@@ -1,6 +1,6 @@
 #Functions
 #Ex1
-
+"""
 def calculate_factorial(n):
     if n == 1:
         return 1
@@ -68,7 +68,7 @@ def word_frequency(s):
     print(d)
 s = input()
 word_frequency(s)
-
+"""
 
 #Ex8
 def fibonacci(n):
@@ -79,7 +79,7 @@ def fibonacci(n):
     return fibonacci(n-1) + fibonacci(n-2)
 n = int(input())
 print (fibonacci(n))
-
+"""
 #Ex9
 def calculate_running_average(*n):
     l = []
@@ -93,7 +93,6 @@ def calculate_running_average(*n):
     return l
 
 print(calculate_running_average(10, 20, 30, 40, 50))
-
-    
+"""
     
     
