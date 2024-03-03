@@ -1,0 +1,5 @@
+f1 = open("1.txt", "rt")
+f2 = open("2.txt", "wt")
+f2.write(f1.read())
+f2.close()
+f1.close()
